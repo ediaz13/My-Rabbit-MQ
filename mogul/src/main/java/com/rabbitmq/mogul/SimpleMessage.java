@@ -14,4 +14,11 @@ public class SimpleMessage implements Serializable {
     public SimpleMessage() {
     }
 
+    public String toString() {
+        return "SimpleMessage{" +
+                "name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
 }

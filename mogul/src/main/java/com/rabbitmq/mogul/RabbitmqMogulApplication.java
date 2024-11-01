@@ -24,6 +24,6 @@ public class RabbitmqMogulApplication implements CommandLineRunner {
 		simpleMessage.setName("FirstMessage");
 		simpleMessage.setDescription("SimpleDescription");
 
-		rabbitTemplate.convertAndSend("TestExchange", "testRouting", simpleMessage);
+		rabbitTemplate.convertAndSend("MyTopicExchange", "topic", simpleMessage);
 	}
 }
