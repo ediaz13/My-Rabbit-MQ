@@ -1,1 +1,1 @@
-Experiments with RabbitTemplate... Just for fun!
+Publishers - Experiments with RabbitTemplate... Just for fun!
